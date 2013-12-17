@@ -1,0 +1,27 @@
+{
+  "name": "backbone.collectionwindow",
+  "version": "0.0.1",
+  "description": "Backbone.CollectionWindow\r =========================",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "make",
+    "test": "mocha ./spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scivey/Backbone.CollectionWindow.git"
+  },
+  "author": "Scott Ivey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scivey/Backbone.CollectionWindow/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "backbone": "~1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "better-assert": "~1.0.0"
+  }
+}
